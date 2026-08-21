@@ -1,9 +1,16 @@
 # ringback.works
 
-Static marketing site for Ringback (Sydney plumber missed-call installs).
+Marketing site for Ringback — named install for Greater Sydney owner-operator plumbers.
+
+## Routes
 
 - `/` landing
-- `/apply` qualification form
+- `/apply` qualification
 - `/blog` posts
 
-Deployed on Vercel. Domain: ringback.works (Namecheap DNS).
+## Deploy
+
+Vercel project **ringback-site**, production branch `main`.
+Domain: **ringback.works** (Namecheap DNS → Vercel).
+
+Full tree deploys from this repo. Prefer Git pushes over partial file deploys.
