@@ -13,4 +13,6 @@ Marketing site for Ringback — named install for Greater Sydney owner-operator 
 Vercel project **ringback-site**, production branch `main`.
 Domain: **ringback.works** (Namecheap DNS → Vercel).
 
-Full tree deploys from this repo. Prefer Git pushes over partial file deploys.
+**Important:** Always deploy from this Git repo. Partial file deploys wipe other routes.
+
+To add the hero image: upload `hero.jpg` to the repo root, then wait for Vercel to build.
